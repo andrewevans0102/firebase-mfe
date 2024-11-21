@@ -1,0 +1,13 @@
+{
+    "hosting": {
+        "target": "host-11182024",
+        "public": "build",
+        "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+        "rewrites": [
+            {
+                "source": "**",
+                "destination": "/index.html"
+            }
+        ]
+    }
+}

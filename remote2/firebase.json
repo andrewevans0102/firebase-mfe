@@ -1,0 +1,13 @@
+{
+    "hosting": {
+        "site": "remote2-11182024",
+        "public": "build",
+        "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+        "rewrites": [
+            {
+                "source": "**",
+                "destination": "/index.html"
+            }
+        ]
+    }
+}

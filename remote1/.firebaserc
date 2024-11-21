@@ -1,0 +1,15 @@
+{
+    "projects": {
+        "default": "<YOUR_FIREBASE_PROJECT_ID>"
+    },
+    "targets": {
+        "<YOUR_FIREBASE_PROJECT_ID>": {
+            "hosting": {
+                "remote1-11182024": [
+                    "remote1-11182024"
+                ]
+            }
+        }
+    },
+    "etags": {}
+}

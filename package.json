@@ -1,0 +1,17 @@
+{
+    "name": "firebase-mfe",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "deploy:host": "cd host && npm run build && npm run deploy",
+        "deploy:remote1": "cd remote1 && npm run build && npm run deploy",
+        "deploy:remote2": "cd remote2 && npm run build && npm run deploy",
+        "start:host": "cd host && npm run start",
+        "start:remote1": "cd remote1 && npm run start",
+        "start:remote2": "cd remote2 && npm run start"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
